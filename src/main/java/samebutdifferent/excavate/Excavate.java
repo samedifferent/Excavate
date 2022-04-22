@@ -29,6 +29,7 @@ public class Excavate {
         ExcavateItems.ITEMS.register(bus);
         ExcavateConfiguredFeatures.CONFIGURED_FEATURES.register(bus);
         ExcavatePlacedFeatures.PLACED_FEATURES.register(bus);
+        ExcavateMobEffects.MOB_EFFECTS.register(bus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
